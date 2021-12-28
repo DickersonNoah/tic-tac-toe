@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+body{
+    color: green;
+}
+.gameBoard{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    width: 100vw;
+    height: 75vh;
+}
+.boardPiece{
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 1px;
+    cursor: pointer;
+}
+.gameBoard :hover{
+    background-color: green;
+}
+
