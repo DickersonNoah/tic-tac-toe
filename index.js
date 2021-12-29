@@ -83,7 +83,7 @@ const winner = () => {//const winner
                 console.log(`${currentPlayer} wins!`);
                 return true;  //return true  
             }
-    } if(spaces[4] === currentPlayer){// if current player has 4,1,7 current player wins middle row
+    }  if(spaces[4] === currentPlayer){// if current player has 4,1,7 current player wins middle row
         if(spaces[1] === currentPlayer && spaces[7] === currentPlayer){
             console.log(`${currentPlayer} wins!`);
             return true;//return true
@@ -92,7 +92,7 @@ const winner = () => {//const winner
             console.log(`${currentPlayer} wins!`);
             return true;//return true
     }
-    if(spaces[6] === currentPlayer){//if current player has 6,4,2 current player wins diagnoly bottom left to top right 
+       if(spaces[6] === currentPlayer){//if current player has 6,4,2 current player wins diagnoly bottom left to top right 
             if(spaces[4] === currentPlayer && spaces[2] === currentPlayer){
                 console.log(`${currentPlayer} wins!`);
                 return true;//return true
