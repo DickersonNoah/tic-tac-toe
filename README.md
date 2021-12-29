@@ -21,3 +21,13 @@
 5. Create HTML Boiler Plate
 6. Commit out pseudo code on each file.
 7. Work through each portion of each file function by function line by line.
+
+### Problem solving steps
+(Followed these steps til I came to an answer)
+1. Get stuck
+2. Think about the logic and how it works.
+3. Go to lessons folder from class search there.
+4. Search in the books I own. (link up top)
+5. Think about the question I want to ask.
+6. Use resources from Research Tools section.
+7. Ask for help.
