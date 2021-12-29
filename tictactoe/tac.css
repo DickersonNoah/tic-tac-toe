@@ -1,0 +1,62 @@
+/* Author: Noah Dickerson
+   Date: 12/28/21
+   Purpose: Style sheet for the tic tac toe project */
+body{  /*Every thing in the body (font and color of the font*/
+    color: #000000; 
+    font-family: monospace;
+}
+
+*{ /* all elements will have box-sizing of border-box*/
+    box-sizing: border-box;
+}
+
+.container{ /* The container div where everything visible on the page will be contained*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: center;
+    justify-content: center;
+    justify-items: center;  
+}
+
+h1{ /*the only h1 tag will be uppercase center and have a font size of 50px*/
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#gameBoard{/*The entirety of the gameboard not just indiviual boxes*/
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;    
+}
+
+.box{ /*The indiviual boxes on the game board as they are static*/
+    height: 150px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.box:hover{ /*When you hover over boxes you will see a pointer the color gray and it will lift up 5px*/
+    cursor:pointer;
+    transform: translate(5px);
+    background-color: grey;
+}
+
+button{ /*Basic button background green with a black font*/
+    background-color: rgb(128, 255, 0);
+    color: black;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+button:hover{ /*when you hover over the button you will see a pointer and it will lift up 5px*/
+    cursor: pointer;
+    transform: translate(5px);
+}
